@@ -15,21 +15,21 @@ output "aws_rds_cluster" {
   sensitive = true
 }
 
-output "aws_rds_cluster_instance-reader1" {
-  value = aws_rds_cluster_instance.cluster_instances-reader1
-}
+# output "aws_rds_cluster_instance-reader1" {
+#   value = aws_rds_cluster_instance.cluster_instances-reader1
+# }
 
-output "aws_rds_cluster_instance-reader2" {
-  value = aws_rds_cluster_instance.cluster_instances-reader2
-}
+# output "aws_rds_cluster_instance-reader2" {
+#   value = aws_rds_cluster_instance.cluster_instances-reader2
+# }
 
-output "aws_rds_cluster_instance-reader3" {
-  value = aws_rds_cluster_instance.cluster_instances-reader3
-}
+# output "aws_rds_cluster_instance-reader3" {
+#   value = aws_rds_cluster_instance.cluster_instances-reader3
+# }
 
-output "aws_rds_cluster_instance-writer" {
-  value = aws_rds_cluster_instance.cluster_instances-writer
-}
+# output "aws_rds_cluster_instance-writer" {
+#   value = aws_rds_cluster_instance.cluster_instances-writer
+# }
 
 output "db_subnet" {
   value = aws_security_group.db_security

@@ -5,6 +5,11 @@ variable "instance_class" {
 variable "aws_cluster_identifier" {
   default = "dbname"
 }
+
+variable "availability_zones" {
+  type    =  list(string)
+}
+
 variable "aws_cluster_identifier-reader1" {
   default = "dbname"
 }
@@ -49,6 +54,9 @@ variable "allowed_security_groups" {
 # }
 
 variable "region" {
+  type = string
+}
+variable "enable_dns_support" {
   type = string
 }
 variable "master_password" {
