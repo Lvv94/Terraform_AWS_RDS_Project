@@ -7,7 +7,7 @@ output "writer_endpoint1" {
 }
 
 output "aws_db_subnet_group" {
-  value = aws_db_subnet_group.db_subnet
+  value = aws_db_subnet_group.db_team1
 }
 
 output "aws_rds_cluster" {

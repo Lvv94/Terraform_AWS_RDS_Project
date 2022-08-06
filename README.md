@@ -1,5 +1,5 @@
 dev.tfvars: 
-region                  = "eu-west-2"
+region                  = "us-east-1"
 allocated_storage       = 20
 engine                  = "mysql"
 engine_version          = "8.0.28"

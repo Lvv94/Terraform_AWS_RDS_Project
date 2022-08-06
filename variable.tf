@@ -36,15 +36,18 @@ variable "name" {
 variable "vpc_id" {
   type = string
 }
+
 variable "subnet_ids" {
   type = list(string)
 }
+
 variable "allowed_security_groups" {
   type = string
 }
-#variable "allowed_cidr_blocks" {
-#type = list(string)
-#}
+# variable "allowed_cidr_blocks" {
+# type = list(string)
+# }
+
 variable "region" {
   type = string
 }
@@ -70,13 +73,13 @@ variable "allocated_storage" {
 # variable "ZONEID" {
 #   type = string
 # }
-# # variable "vpc_id" {
-# #   type = string
-# # }
+# variable "vpc_id" {
+#   type = string
+# }
 
-# # variable "subnet_ids" {
-# #   type = string
-# # }
+# variable "subnet_ids" {
+#   type = string
+# }
 
 
 
